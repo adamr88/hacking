@@ -1,0 +1,68 @@
+site_description: hacking blog
+site_name: adamr88/hacking 
+repo_url: https://github.com/adamr88/hacking
+edit_uri: blob/main/docs/
+
+markdown_extensions:
+    - toc:
+        permalink: "#"
+    - nl2br
+    - admonition
+    - markdown.extensions.abbr
+    - markdown.extensions.attr_list
+    - markdown.extensions.def_list
+    - markdown.extensions.footnotes
+    - markdown.extensions.md_in_html
+    - markdown.extensions.tables
+    - pymdownx.arithmatex
+    - pymdownx.b64
+    - pymdownx.betterem
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji
+    - pymdownx.escapeall
+    - pymdownx.extra
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.pathconverter
+    - pymdownx.progressbar
+    - pymdownx.saneheaders
+    - pymdownx.smartsymbols
+    - pymdownx.snippets
+    - pymdownx.striphtml
+    - pymdownx.superfences
+    - pymdownx.tabbed
+    - pymdownx.tasklist
+    - pymdownx.tilde
+
+plugins:
+  - search
+  - glightbox
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+      js_files:
+        - javascript/clipboard.js
+      css_files:
+        - stylesheets/styles.css
+        - stylesheets/highlight.css
+
+theme:
+    name: mkdocs 
+    custom_dir: theme
+    highlightjs: false
+
+extra_css:
+  - stylesheets/styles.css
+  - stylesheets/highlight.css
+
+extra_javascript:
+  - javascript/clipboard.js
