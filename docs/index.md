@@ -1,6 +1,6 @@
 # Home
 
-Hackers think I'm a good engineer. Engineers think I'm a good hacker
+Hackers think I'm a good programmer. Programmers think I'm a good hacker
 
 ## Social
 
