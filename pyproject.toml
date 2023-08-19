@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "hacking"
+version = "0.1.0"
+description = "hacking blog and tools"
+authors = ["adamr88 <adam.rosenbaum.engineer@gmail.com>"]
+readme = "README.md"
+ 
+[tool.poetry.dependencies]
+python = "3.9.6"
+click = "^8.1.3"
+ 
+[tool.poetry.group.docs.dependencies]
+markdown = "^3.4.4"
+mkdocs = "^1.5.0"
+mkdocs-glightbox = "^0.3.4"
+pygments = "^2.15.1"
+pymdown-extensions = "^10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+ 
+[tool.black]
+line-length = 80
+ 
