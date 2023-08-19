@@ -49,11 +49,6 @@ plugins:
       htmlmin_opts:
         remove_comments: true
       cache_safe: true
-      js_files:
-        - javascript/clipboard.js
-      css_files:
-        - stylesheets/styles.css
-        - stylesheets/highlight.css
 
 theme:
     name: mkdocs 
