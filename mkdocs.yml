@@ -40,7 +40,7 @@ markdown_extensions:
     - pymdownx.tilde
 
 plugins:
-  - search
+  # - search  # disable search until css is updated
   - glightbox
   - minify:
       minify_html: true
