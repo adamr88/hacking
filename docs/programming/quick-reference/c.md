@@ -19,17 +19,20 @@
 - [GNU Make](https://www.gnu.org/software/make/manual/make.html)
 - [Mastering CMake](https://cmake.org/cmake/help/book/mastering-cmake/index.html)
 
-### Compilers <small>(etc)</small>
-
-- [Netwide Assembler (NASM)](https://www.nasm.us/xdoc/2.16.01/html/nasmdoc0.html)
-- [GNU Compiler Collection (GCC)](https://gcc.gnu.org/onlinedocs/gcc-13.2.0/gcc/)
-- [Tiny C Compiler (TCC)](https://bellard.org/tcc/)
-
 ### Code Quality
 
 - [Clang-tidy](https://clang.llvm.org/extra/clang-tidy/)
 - [SEI CERT C Coding Standard](https://resources.sei.cmu.edu/downloads/secure-coding/assets/sei-cert-c-coding-standard-2016-v01.pdf)
 - [Static Analyzers for C](https://nrk.neocities.org/articles/c-static-analyzers)
+- [Valgrind](https://valgrind.org/docs/manual/quick-start.html)
+
+### Compilers <small>(etc)</small>
+
+- [Flat Assembler (FASM)](https://flatassembler.net/)
+- [Microsoft Macro Assembler (MASM)](https://learn.microsoft.com/en-us/cpp/assembler/masm/microsoft-macro-assembler-reference?view=msvc-170)
+- [Netwide Assembler (NASM)](https://www.nasm.us/xdoc/2.16.01/html/nasmdoc0.html)
+- [GNU Compiler Collection (GCC)](https://gcc.gnu.org/onlinedocs/gcc-13.2.0/gcc/)
+- [Tiny C Compiler (TCC)](https://bellard.org/tcc/)
 
 ### Packages
 
@@ -49,3 +52,4 @@
 
 - [Null Program](https://nullprogram.com/index/)
 - [Stack Overflow > Tags > C > Info](https://stackoverflow.com/tags/c/info)
+- [NTAPI Undocumented Functions](http://undocumented.ntinternals.net/)
