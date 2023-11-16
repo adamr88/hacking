@@ -22,6 +22,7 @@
 ### Code Quality
 
 - [Clang-tidy](https://clang.llvm.org/extra/clang-tidy/)
+- [CppCheck](https://cppcheck.sourceforge.io/)
 - [SEI CERT C Coding Standard](https://resources.sei.cmu.edu/downloads/secure-coding/assets/sei-cert-c-coding-standard-2016-v01.pdf)
 - [Static Analyzers for C](https://nrk.neocities.org/articles/c-static-analyzers)
 - [Valgrind](https://valgrind.org/docs/manual/quick-start.html)
@@ -50,6 +51,7 @@
 
 ### See Also
 
+- [C Programming Wiki](https://en.wikibooks.org/wiki/C_Programming)
 - [Null Program](https://nullprogram.com/index/)
 - [Stack Overflow > Tags > C > Info](https://stackoverflow.com/tags/c/info)
 - [NTAPI Undocumented Functions](http://undocumented.ntinternals.net/)
