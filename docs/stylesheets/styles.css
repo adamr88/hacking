@@ -199,7 +199,7 @@ div.highlight.comment > span.filename {
 }
 
 div.highlight.editor > span.filename {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     display: block;
     float: right;
     padding-top: 1rem;
@@ -446,4 +446,4 @@ table.table-striped.table-hover > tbody > tr > td {
 
 /* hll overrides */
 
-div.highlight.editor > pre > code > span.hll { background-color: #44475a; }
+div.highlight.editor > pre > code > span.hll { background-color: #44475a }
