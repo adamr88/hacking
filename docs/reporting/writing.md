@@ -10,6 +10,8 @@ The tone of voice should be casual, friendly and informative. It should not be a
 
 > The contrarian guide
 
+My several years in the word game have learnt me several rules:
+
 1. Avoid alliteration. Always
 2. Prepositions are not words to end sentences with
 3. Avoid cliches like the plague. (They're old hat)
@@ -33,6 +35,8 @@ The tone of voice should be casual, friendly and informative. It should not be a
 21. Go around the barn at high noon to avoid colloquialisms
 22. Even if a mixed metaphor sings, it should be derailed
 23. Who needs rhetorical questions?
+24. Ending punctuation should be omitted for lists.
+25. Ending punctuation should be omitted before newlines.
 
 ## References
 
