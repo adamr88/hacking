@@ -1,0 +1,449 @@
+/* || color palette */
+
+:root {
+     --blue: #5DB2FF;
+     --dark-blue: #2F6CFF;
+     --dark-gray: #A3B2CD;
+     --dark-green: #2FE8B6;
+     --dark-lime: #A0EF00;
+     --dark-purple: #9E03FE;
+     --dark-red: #FF3E3E;
+     --dark-yellow: #FFAE00;
+     --gray: #C5D2EB;
+     --green: #5DECC6;
+     --lime: #C5F466;
+     --primary-dark: #09121F;
+     --primary-light: #171F2D;
+     --primary: #121927;
+     --purple: #CF8DFA;
+     --red: #FF8483;
+     --yellow: #FFCC5C;
+     --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* || code highlight */
+
+code {background-color: var(--dark-gray); color: var(--primary-dark); }
+pre { border: none; color: white; background-color: inherit; }
+span.hll { border-radius: 0.25rem; background-color: var(--hll-color,  inherit ); }
+span.hll:before { border-radius: 0.25rem; background-color: var(--hll-color,  inherit); }
+
+/* || code highlight: weight, decoration and style */
+
+div.highlight > pre > code > span.hll > span.go { color: inherit; }
+div.highlight.bold > pre > code > span.hll { font-weight: bold !important }
+div.highlight.italic > pre > code > span.hll { font-style: italic; }
+div.highlight.underline > pre > code > span.hll { text-decoration: underline !important; }
+
+/* || code highlight: text color */
+
+div.highlight.blue > pre > code > span.hll { color: var(--blue) !important; }
+div.highlight.dark-blue > pre > code > span.hll { color: var(--dark-blue) !important; }
+div.highlight.dark-gray > pre > code > span.hll { color: var(--dark-gray) !important; }
+div.highlight.dark-green > pre > code > span.hll { color: var(--dark-green) !important; }
+div.highlight.dark-lime > pre > code > span.hll { color: var(--dark-lime) !important; }
+div.highlight.dark-purple > pre > code > span.hll { color: var(--dark-purple) !important; }
+div.highlight.dark-red > pre > code > span.hll { color: var(--dark-red) !important; }
+div.highlight.dark-yellow > pre > code > span.hll { color: var(--dark-yellow) !important; }
+div.highlight.gray > pre > code > span.hll { color: var(--gray) !important; }
+div.highlight.green > pre > code > span.hll { color: var(--green) !important; }
+div.highlight.lime > pre > code > span.hll { color: var(--lime) !important; }
+div.highlight.primary > pre > code > span.hll { color: var(--primary) !important; }
+div.highlight.primary-dark > pre > code > span.hll { color: var(--primary-dark) !important; }
+div.highlight.primary-light > pre > code > span.hll { color: var(--primary-light) !important; }
+div.highlight.purple > pre > code > span.hll { color: var(--purple) !important; }
+div.highlight.red > pre > code > span.hll { color: var(--red) !important; }
+div.highlight.white > pre > code > span.hll { color: white !important; }
+div.highlight.yellow > pre > code > span.hll { color: var(--yellow) !important; }
+
+/* || code highlight: background color */
+
+div.highlight.bg-blue > pre > code > span.hll { background-color: var(--blue) !important; }
+div.highlight.bg-dark-blue > pre > code > span.hll { background-color: var(--dark-blue) !important; }
+div.highlight.bg-dark-gray > pre > code > span.hll { background-color: var(--dark-gray) !important; }
+div.highlight.bg-dark-green > pre > code > span.hll { background-color: var(--dark-green) !important; }
+div.highlight.bg-dark-lime > pre > code > span.hll { background-color: var(--dark-lime) !important; }
+div.highlight.bg-dark-purple > pre > code > span.hll { background-color: var(--dark-purple) !important; }
+div.highlight.bg-dark-red > pre > code > span.hll { background-color: var(--dark-red) !important; }
+div.highlight.bg-dark-yellow > pre > code > span.hll { background-color: var(--dark-yellow) !important; }
+div.highlight.bg-gray > pre > code > span.hll { background-color: var(--gray) !important; }
+div.highlight.bg-green > pre > code > span.hll { background-color: var(--green) !important; }
+div.highlight.bg-lime > pre > code > span.hll { background-color: var(--lime) !important; }
+div.highlight.bg-primary > pre > code > span.hll { background-color: var(--primary) !important; }
+div.highlight.bg-primary-dark > pre > code > span.hll { background-color: var(--primary-dark) !important; }
+div.highlight.bg-primary-light > pre > code > span.hll { background-color: var(--primary-light) !important; }
+div.highlight.bg-purple > pre > code > span.hll { background-color: var(--purple) !important; }
+div.highlight.bg-red > pre > code > span.hll { background-color: var(--red) !important; }
+div.highlight.bg-transparent > pre > code > span.hll { background-color: transparent !important; }
+div.highlight.bg-white > pre > code > span.hll { background-color: white !important; }
+div.highlight.bg-yellow > pre > code > span.hll { background-color: var(--yellow) !important; }
+
+/* || code highlight: "annotations" */
+
+div.highlight.block > pre > code > span.hll {
+    display: block !important;
+}
+
+div.highlight.annotate > pre > code > span.hll:before {
+	background-color: var(--hll-color,  inherit); 
+	color: inherit;
+	content: "!";
+	float: right;
+	font-size: smaller;
+	font-weight: normal;
+	margin-right: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+/* ||  highlight: "annotations" text color */
+
+div.highlight.blue > pre > code > span.hll:before { color: var(--blue) !important; }
+div.highlight.dark-blue > pre > code > span.hll:before { color: var(--dark-blue) !important; }
+div.highlight.dark-gray > pre > code > span.hll:before { color: var(--dark-gray) !important; }
+div.highlight.dark-green > pre > code > span.hll:before { color: var(--dark-green) !important; }
+div.highlight.dark-lime > pre > code > span.hll:before { color: var(--dark-lime) !important; }
+div.highlight.dark-purple > pre > code > span.hll:before { color: var(--dark-purple) !important; }
+div.highlight.dark-red > pre > code > span.hll:before { color: var(--dark-red) !important; }
+div.highlight.dark-yellow > pre > code > span.hll:before { color: var(--dark-yellow) !important; }
+div.highlight.gray > pre > code > span.hll:before { color: var(--gray) !important; }
+div.highlight.green > pre > code > span.hll:before { color: var(--green) !important; }
+div.highlight.lime > pre > code > span.hll:before { color: var(--lime) !important; }
+div.highlight.primary > pre > code > span.hll:before { color: var(--primary) !important; }
+div.highlight.primary-dark > pre > code > span.hll:before { color: var(--primary-dark) !important; }
+div.highlight.primary-light > pre > code > span.hll:before { color: var(--primary-light) !important; }
+div.highlight.purple > pre > code > span.hll:before { color: var(--purple) !important; }
+div.highlight.red > pre > code > span.hll:before { color: var(--red) !important; }
+div.highlight.white > pre > code > span.hll:before { color: white !important; }
+div.highlight.yellow > pre > code > span.hll:before { color: var(--yellow) !important; }
+
+/* || code highlight: "annotations" background color */
+
+div.highlight.bg-blue > pre > code > span.hll:before { background-color: var(--blue) !important; }
+div.highlight.bg-dark-blue > pre > code > span.hll:before { background-color: var(--dark-blue) !important; }
+div.highlight.bg-dark-gray > pre > code > span.hll:before { background-color: var(--dark-gray) !important; }
+div.highlight.bg-dark-green > pre > code > span.hll:before { background-color: var(--dark-green) !important; }
+div.highlight.bg-dark-lime > pre > code > span.hll:before { background-color: var(--dark-lime) !important; }
+div.highlight.bg-dark-purple > pre > code > span.hll:before { background-color: var(--dark-purple) !important; }
+div.highlight.bg-dark-red > pre > code > span.hll:before { background-color: var(--dark-red) !important; }
+div.highlight.bg-dark-yellow > pre > code > span.hll:before { background-color: var(--dark-yellow) !important; }
+div.highlight.bg-gray > pre > code > span.hll:before { background-color: var(--gray) !important; }
+div.highlight.bg-green > pre > code > span.hll:before { background-color: var(--green) !important; }
+div.highlight.bg-lime > pre > code > span.hll:before { background-color: var(--lime) !important; }
+div.highlight.bg-primary > pre > code > span.hll:before { background-color: var(--primary) !important; }
+div.highlight.bg-primary-dark > pre > code > span.hll:before { background-color: var(--primary-dark) !important; }
+div.highlight.bg-primary-light > pre > code > span.hll:before { background-color: var(--primary-light) !important; }
+div.highlight.bg-purple > pre > code > span.hll:before { background-color: var(--purple) !important; }
+div.highlight.bg-red > pre > code > span.hll:before { background-color: var(--red) !important; }
+div.highlight.bg-transparent > pre > code > span.hll:before { background-color: transparent !important; }
+div.highlight.bg-white > pre > code > span.hll:before { background-color: white !important; }
+div.highlight.bg-yellow > pre > code > span.hll:before { background-color: var(--yellow) !important; }
+
+/* || code highlight: "annotations" counter */
+
+div.highlight.counter-reset > pre {
+    counter-reset: hl_line 0;
+}
+
+div.highlight.ol > pre > code > span.hll:before {
+    content: counter(hl_line);
+    counter-increment: hl_line;
+    float: right;
+    font-size: smaller;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+}
+
+/* || code highlight: customization */
+
+div.highlight.comment,
+div.highlight.terminator {
+    background-color: var(--primary-dark);
+}
+
+div.highlight.editor {
+    background-color: #1E1E1E;
+}
+
+/* || code highlight: customization "before" */
+
+div.highlight.editor:before,
+div.highlight.terminator:before  {
+    background-color: #353535;
+    content: " • • • ";
+    display: block;
+    font-weight: bold;
+    padding: 0.25rem 1rem 0.25rem 2rem;
+}
+
+div.highlight.comment:before {
+    content: "# ";
+    color: var(--green);
+    font-family: var(--font-family-monospace);
+    font-size: small;
+    padding-left: 1rem;
+}
+
+div.highlight.comment {
+    padding-top: 1rem;
+}
+
+/* || code highlight: customization "filename" */
+
+div.highlight.editor > span.filename,
+div.highlight.comment > span.filename {
+    color: var(--green);
+    font-family: var(--font-family-monospace);
+    font-size: small;
+}
+
+div.highlight.editor > span.filename {
+    /* text-decoration: underline; */
+    display: block;
+    float: right;
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+
+div.highlight.terminator > span.filename {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family-monospace);
+    font-size: small;
+}
+
+div.highlight.editor > pre,
+div.highlight.comment > pre,
+div.highlight.terminator > pre {
+    margin-top: 0;
+}
+
+div.highlight.terminator > span.filename {
+    background-color: var(--blue); 
+    color: black;
+}
+
+/* || code copy to clipboard */
+
+div.highlight.copy {
+    position: relative;
+}
+
+div.highlight.copy > pre > button {
+    background-color: transparent;
+    border-radius: 0.25rem;
+    border: 0.015rem solid var(--green);
+    color: var(--dark-green);
+    display: block;
+    margin: 0.7rem 1rem 0rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    /* positioning */
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    opacity: 0.6;
+}
+
+div.highlight.copy > pre > button:hover {
+    opacity: 1.0;
+}
+
+div.highlight.copy > pre > button:active {
+    border: 0.015rem solid var(--dark-blue);
+    color: var(--dark-blue);
+}
+
+
+/* || admonitions */
+
+div.admonition {
+    background-color: transparent;
+}
+
+/* || admonitions: border color */
+
+div.admonition.blue { border: 1px solid var(--blue); }
+div.admonition.note, div.admonition.dark-blue { border: 1px solid var(--dark-blue); }
+div.admonition, div.admonition.dark-gray { border: 1px solid var(--dark-gray); }
+div.admonition.success, div.admonition.dark-green { border: 1px solid var(--dark-green); }
+div.admonition.dark-lime { border: 1px solid var(--dark-lime); }
+div.admonition.quote, div.admonition.dark-purple { border: 1px solid var(--dark-purple); }
+div.admonition.danger, div.admonition.dark-red { border: 1px solid var(--dark-red); }
+div.admonition.warning, div.admonition.dark-yellow { border: 1px solid var(--dark-yellow); }
+div.admonition.gray { border: 1px solid var(--gray); }
+div.admonition.green { border: 1px solid var(--green); }
+div.admonition.lime { border: 1px solid var(--lime); }
+div.admonition.primary-dark { border: 1px solid var(--primary-dark); }
+div.admonition.primary-light { border: 1px solid var(--primary-light); }
+div.admonition.primary { border: 1px solid var(--primary); }
+div.admonition.purple { border: 1px solid var(--purple); }
+div.admonition.red { border: 1px solid var(--red); }
+div.admonition.yellow { border: 1px solid var(--yellow); }
+
+/* || admonitions: title color */
+
+div.admonition.note .admonition-title, div.admonition.blue .admonition-title { color: var(--blue); }
+div.admonition.dark-blue .admonition-title { color: var(--dark-blue); }
+div.admonition .admonition-title, .admonition.dark-gray .admonition-title { color: var(--dark-gray); }
+div.admonition.dark-green .admonition-title { color: var(--dark-green); }
+div.admonition.dark-lime .admonition-title { color: var(--dark-lime); }
+div.admonition.dark-purple .admonition-title { color: var(--dark-purple); }
+div.admonition.dark-red .admonition-title { color: var(--dark-red); }
+div.admonition.dark-yellow .admonition-title { color: var(--dark-yellow); }
+div.admonition.gray .admonition-title { color: var(--gray); }
+div.admonition.success .admonition-title, div.admonition.green .admonition-title { color: var(--green); }
+div.admonition.lime .admonition-title { color: var(--lime); }
+div.admonition.primary-dark .admonition-title { color: var(--primary-dark); }
+div.admonition.primary-light .admonition-title { color: var(--primary-light); }
+div.admonition.primary .admonition-title { color: var(--primary); }
+div.admonition.quote .admonition-title, div.admonition.purple .admonition-title { color: var(--purple); }
+div.admonition.danger .admonition-title, div.admonition.red .admonition-title { color: var(--red); }
+div.admonition.warning .admonition-title, div.admonition.yellow .admonition-title { color: var(--yellow); }
+
+/* || admonition: ordered list */
+
+h1,h2 {
+    counter-reset: hl_line ol_line 0;
+}
+
+div.admonition > ol {
+    list-style-type: none;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.admonition > ol > li:before {
+    background-color: var(--hll-color, #44475a);
+    border-radius: 0.25rem;
+    color: inherit;
+    content: counter(ol_line);
+    counter-increment: ol_line;
+    font-size: small;
+    margin-right: 1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.50em;
+    padding-right: 0.50em;
+}
+
+/* || blockquote */
+
+div.admonition.quote .admonition-title,
+blockquote {
+    font-style: italic;
+    text-shadow: 0 0 7px var(--purple), 0 0 21px var(--dark-purple);
+}
+
+blockquote {
+    background-color: transparent;
+    border: none;
+    color: var(--dark-gray);
+    margin: 10px 0;
+    padding: 10px;
+}
+
+blockquote p:last-child { margin-bottom: 0; }
+blockquote+.blockquote { margin-top: -5px; }
+
+/* || navbar */
+
+div.navbar-default {
+    background-color: var(--primary);
+    border-bottom: none;
+    box-shadow: 1px 2px 5px 2px var(--primary-dark);
+}
+
+div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a.navbar-brand {
+    color: var(--lime);
+    font-weight: bolder;
+}
+
+div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-collapse.collapse > ul > li > a {
+    background-color: var(--primary);
+    font-weight: bolder;
+}
+
+div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-collapse.collapse > ul.nav.navbar-nav.navbar-right > li:last-child > a {
+    background-color: var(--dark-lime);
+    border-radius: 0.25rem;
+    color: var(--primary-dark);
+    display: block;
+    margin: 0.7rem 1rem 0rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.navbar-default .dropdown-menu {
+    background-color: var(--primary-dark);
+}
+
+div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-collapse.collapse > ul > li > a {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.navbar-default .dropdown-menu > li > a:hover, div.bs-sidebar > ul.nav.bs-sidenav > li > a:hover, div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-collapse.collapse > ul > li > a:hover {
+    background-color: var(--primary-light);
+    color: var(--dark-blue);
+}
+
+li.dropdown.active > ul > li > ul > li.active > a, div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-collapse.collapse > ul > li.active > a {
+    background-color: var(--primary);
+    color: var(--blue);
+}
+
+li.dropdown.active > ul > li > ul > li.active > a:hover, div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-collapse.collapse > ul > li.active > a:hover {
+    background-color: var(--primary-light);
+    color: var(--dark-blue);
+}
+
+/* || side nav  */
+
+div.bs-sidebar {
+    border-radius: 0.25rem;
+    background-color: inherit;
+    border-color: var(--dark-blue);
+}
+
+div.bs-sidebar > ul.nav.bs-sidenav {
+    background-color: var(--primary-light);
+    background-image: none;
+}
+
+/* || anchor links */
+
+a { color: var(--blue); }
+a:hover { color: var(--dark-blue); }
+
+/* || body */
+
+body {
+    background-color: var(--primary);
+    color: var(--gray)
+}
+
+h1,h2,h3,h4 {
+    color: white;
+}
+
+/* || images */
+
+img {
+    width: 100%;
+}
+
+/* || emojis */
+
+img.emojione {
+    height: 24px;
+    width: auto;
+}
+
+/* || tables */
+
+table.table-striped.table-hover > tbody > tr > td {
+    background-color: inherit !important;
+}
+
+/* hll overrides */
+
+div.highlight.editor > pre > code > span.hll { background-color: #44475a }
