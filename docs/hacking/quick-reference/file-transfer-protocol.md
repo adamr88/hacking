@@ -1,5 +1,11 @@
 # File Transfer Protocol
 
+Graphical User Interface Client
+
+```{.shell .copy}
+apt-get install -y filezilla
+```
+
 ## Banner Grabbing
 
 Useful to determine FTP version and capabilities
@@ -26,8 +32,8 @@ EOF
 
 ```{.shell .copy title="Default credentials"}
 user_pass=/usr/share/seclists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt
-awk -f ':' '{print $1}' $user_pass > users.txt
-awk -f ':' '{print $2}' $user_pass > passwords.txt
+awk -F ':' '{print $1}' $user_pass > users.txt
+awk -F ':' '{print $2}' $user_pass > passwords.txt
 users=users.txt
 passwords=passwords.txt
 ```
